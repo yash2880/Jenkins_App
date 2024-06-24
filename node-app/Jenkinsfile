@@ -11,7 +11,7 @@ pipeline {
       parallel {
         stage('sourcecode') {
           steps {
-            git branch: "main", url: 'https://github.com/yash2880/Node_App.git'
+            git branch: "main", url: 'https://github.com/yash2880/node-app.git'
             echo "Executing from branch: ${env.BRANCH_NAME}"
           }
         }
