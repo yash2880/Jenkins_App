@@ -41,9 +41,9 @@ pipeline {
             dir('Node-App') {
               sh 'sudo bash docker-credentials.sh'
               sleep 5
-              sh 'sudo docker tag node-app-main:latest hvxuser/node-app-main'
+              sh 'sudo docker tag node-app-main:latest yash670/node-app-main'
               sleep 5
-              sh 'sudo docker push hvxuser/node-app-main'
+              sh 'sudo docker push yash670/node-app-main'
             }
           }
         }
