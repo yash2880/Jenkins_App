@@ -2,17 +2,17 @@ version: '3'
 services:
   node-app-main1:
     container_name: node-app-main1
-    image: hvxuser/node-app-main
+    image: yash670/node-app-main
     restart: always
 
   node-app-main2:
     container_name: node-app-main2
-    image: hvxuser/node-app-main
+    image: yash670/node-app-main
     restart: always
 
   node-app-main3:
     container_name: node-app-main3
-    image: hvxuser/node-app-main
+    image: yash670/node-app-main
     restart: always
 
   nginx:
